@@ -3,19 +3,21 @@ using namespace std;
 
 int main(){
     int n;
-    cout<<"enter :";
-    cin>>n;
+    cout << "Enter : ";
+    cin >> n;
 
+    // Outer loop controls the number of rows
+    for(int i = 0; i < n; i++){
+        char ch = 'A';  // Start each row with character 'A'
 
-    for(int i=0;i<n;i++){
+        // Inner loop prints characters from 'A' to the nth alphabet
+        for(int j = 0; j < n; j++){
+            cout << ch;   // Print the current character
+            ch = ch + 1;  // Move to the next character
+        }
 
-        char ch='A';
-
-        for(int j=0;j<n;j++){
-            cout<<ch;
-            ch=ch+1;
+        cout << endl; // Move to the next line after each row
     }
-    cout<< endl;
-}
 
+    return 0;
 }
