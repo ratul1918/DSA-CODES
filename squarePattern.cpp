@@ -1,19 +1,21 @@
-#include<iostream>
+#include<iostream> // Include the input-output stream library
 using namespace std;
 
 int main(){
-   int n;
-    cout<<"enter line number: ";
-    cin>>n;
-  
-     int num=1; 
+    int n;
+    cout << "Enter line number: "; // Prompt the user to enter the number of lines (n x n matrix)
+    cin >> n; // Read the number from user input
 
-    for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            cout<<num<<" ";
-            num++;
- 
+    int num = 1; // Initialize a variable to start printing numbers from 1
+
+    // Outer loop controls the number of rows
+    for (int i = 0; i < n; i++) {
+        // Inner loop controls the number of columns
+        for (int j = 0; j < n; j++) {
+            cout << num << " "; // Print the current number followed by a space
+            num++; // Increment the number for the next cell
         }
-        cout<<endl;
+        cout << endl; // Move to the next line after each row is printed
     }
 }
+
