@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Structure of a Doubly Linked List node
 typedef struct Node {
     int data;
     struct Node* prev;
@@ -10,6 +11,7 @@ typedef struct Node {
 Node* head = NULL;
 Node* tail = NULL;
 
+// Insert at the beginning
 void insertFirst(int value) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->data = value;
@@ -19,11 +21,12 @@ void insertFirst(int value) {
     if (head != NULL)
         head->prev = newNode;
     else
-        tail = newNode;
+        tail = newNode; // If list was empty
 
     head = newNode;
 }
 
+// Insert at the end
 void insertLast(int value) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->data = value;
@@ -33,11 +36,12 @@ void insertLast(int value) {
     if (tail != NULL)
         tail->next = newNode;
     else
-        head = newNode;
+        head = newNode; // If list was empty
 
     tail = newNode;
 }
 
+// Insert at a specific position
 void insertAtPosition(int position, int value) {
     if (position <= 0) return;
 
@@ -69,6 +73,7 @@ void insertAtPosition(int position, int value) {
     }
 }
 
+// Delete the first node
 void deleteFirst() {
     if (head == NULL) return;
 
@@ -83,6 +88,7 @@ void deleteFirst() {
     free(temp);
 }
 
+// Delete the last node
 void deleteLast() {
     if (tail == NULL) return;
 
@@ -95,4 +101,40 @@ void deleteLast() {
         head = NULL;
 
     free(temp);
+}
+
+// Display list
+void displayList() {
+    Node* temp = head;
+    printf("List: ");
+    while (temp != NULL) {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+    printf("\n");
+}
+
+// Main function to test all operations
+int main() {
+    insertFirst(30);
+    insertFirst(20);
+    insertFirst(10);     // List: 10 20 30
+
+    displayList();
+
+    insertLast(40);
+    insertLast(50);      // List: 10 20 30 40 50
+
+    displayList();
+
+    insertAtPosition(3, 25); // List: 10 20 25 30 40 50
+
+    displayList();
+
+    deleteFirst();       // List: 20 25 30 40 50
+    deleteLast();        // List: 20 25 30 40
+
+    displayList();
+
+    return 0;
 }
