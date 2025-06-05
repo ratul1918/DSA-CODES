@@ -44,7 +44,7 @@ int main() {
     // Sort the strings using Bubble Sort
     BubbleSort(arr, n);
 
-    // Display the sorted strings
+    // Display the sorted strings..
     cout << "\nSorted strings:\n";
     for (int i = 0; i < n; ++i) {
         cout << arr[i] << "\n";
