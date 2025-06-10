@@ -42,7 +42,6 @@ int main() {
     // Sort array using Bubble Sort
     Bubblesort(arr, n);
 
-    // Print sorted array
     printArray(arr, n);
 
     return 0;
