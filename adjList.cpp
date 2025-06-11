@@ -16,7 +16,7 @@ public:
     void addEdge(int u, int v) {
         if (u >= 0 && u < V && v >= 0 && v < V) {
             adjList[u].push_back(v);
-            adjList[v].push_back(u); // For undirected graph
+            adjList[v].push_back(u); // For undirected graph...
         }
         else {
             cout << "Out of boundary!" << endl;
