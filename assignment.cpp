@@ -12,7 +12,7 @@ typedef struct Node {
 Node* head = NULL;
 Node* tail = NULL;
 
-// Function to insert a node at the end of the list
+// Function to insert a node at the end of the list..
 void insert(int value) {
     Node* newNode = (Node*)malloc(sizeof(Node)); // allocate memory for new node
     newNode->data = value; // set data
