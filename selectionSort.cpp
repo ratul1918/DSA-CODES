@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Function to perform selection sort
+// Function to perform selection sort..
 void SelectionSort(int arr[], int n)
 {
     for (int i = 0; i < n-1; i++)
@@ -16,14 +16,14 @@ void SelectionSort(int arr[], int n)
             }
         }
 
-        // Swapping the smallest element found with the first unsorted element
+        // Swapping the smallest element found with the first unsorted element..
         int temp = arr[minIdx]; 
         arr[minIdx] = arr[i];
         arr[i] = temp; // Can we use std::swap instead of this manual swap?
     }
 }
 
-// Function to print the array
+// Function to print the array..
 void printArray(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
@@ -32,7 +32,7 @@ void printArray(int arr[], int n)
     }
 }
 
-// Main function
+// Main function..
 int main() {
     int n;
     cin >> n; // What if the user inputs a very large number?
