@@ -20,7 +20,7 @@ public:
     void addEdge(int u, int v) {
         if(u >= 0 && u < V && v >= 0 && v < V) {
             adjMat[u][v] = 1;
-            adjMat[v][u] = 1; // For undirected graph
+            adjMat[v][u] = 1; // For undirected graph..
         }
         else {
             cout << "Out of boundary!" << endl;
@@ -30,7 +30,7 @@ public:
     void removeEdge(int u, int v) {
         if(u >= 0 && u < V && v >= 0 && v < V) {
             adjMat[u][v] = 0;
-            adjMat[v][u] = 0; // For undirected graph
+            adjMat[v][u] = 0; // For undirected graph..
         }
         else {
             cout << "Out of boundary!" << endl;
