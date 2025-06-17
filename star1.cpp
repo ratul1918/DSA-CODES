@@ -6,11 +6,11 @@ int main(){
     cout << "Enter : ";
     cin >> n;
 
-    // Outer loop controls the number of rows
+    // Outer loop controls the number of rows..
     for(int i = 0; i < n; i++){
-        char ch = 'A';  // Start each row with character 'A'
+        char ch = 'A';  // Start each row with character 'A'..
 
-        // Inner loop prints characters from 'A' to the nth alphabet
+        // Inner loop prints characters from 'A' to the nth alphabet..
         for(int j = 0; j < n; j++){
             cout << ch;   // Print the current character
             ch = ch + 1;  // Move to the next character
