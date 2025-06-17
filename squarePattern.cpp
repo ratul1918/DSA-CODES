@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int n;
-    cout << "Enter line number: "; // Prompt the user to enter the number of lines (n x n matrix)
+    cout << "Enter line number: "; // Prompt the user to enter the number of lines (n x n matrix).
     cin >> n; // Read the number from user input
 
     int num = 1; // Initialize a variable to start printing numbers from 1
