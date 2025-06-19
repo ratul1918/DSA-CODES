@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Structure of a Doubly Linked List node
+// Structure of a Doubly Linked List node...
 typedef struct Node {
     int data;
     struct Node* prev;
@@ -11,7 +11,7 @@ typedef struct Node {
 Node* head = NULL;
 Node* tail = NULL;
 
-// Insert at the beginning
+// Insert at the beginning..
 void insertFirst(int value) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->data = value;
