@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    int a = 10; // Initialize variable 'a' with value 10
+    int a = 10; // Initialize variable 'a' with value 10..
 
     // Pre-decrement: Decrease 'a' by 1 first, then assign it to 'b'
     int b = --a;
