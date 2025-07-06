@@ -1,5 +1,5 @@
 #include <iostream>
-#include <algorithm> // Needed for sort()
+#include <algorithm> // Needed for sort()..
 using namespace std;
 
 // Define a structure for Date
