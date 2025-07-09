@@ -28,7 +28,7 @@ int main(){
         }
     }
 
-    // Print the total sum of even numbers
+    // Print the total sum of even numbers.
     cout << "Sum of even numbers from 1 to " << n << " is: " << evenSum << endl;
 
     return 0;
