@@ -5,9 +5,9 @@ using namespace std;
 
 int main() {
     int numNodes, numEdges;
-    cin >> numNodes >> numEdges; // Input total number of nodes and edges
+    cin >> numNodes >> numEdges; // Input total number of nodes and edges..
 
-    // Create an adjacency list for the graph (1-indexed)
+    // Create an adjacency list for the graph (1-indexed)..
     vector<vector<int> > adjacencyList(numNodes + 1);
 
     // Read edges and populate the adjacency list
