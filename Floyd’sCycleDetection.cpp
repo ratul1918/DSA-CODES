@@ -1,5 +1,5 @@
-// Problem: Detect Cycle in a Linked List
-// Use Floyd’s Tortoise and Hare algorithm to check if a loop exists in a linked list.
+// Problem: Detect Cycle in a Linked List..
+// Use Floyd’s Tortoise and Hare algorithm to check if a loop exists in a linked list..
 
 #include <iostream>
 using namespace std;
