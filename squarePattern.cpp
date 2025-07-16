@@ -1,4 +1,4 @@
-#include<iostream> // Include the input-output stream ...
+#include<iostream> // Include the input-output stream .
 using namespace std;
 
 int main(){
