@@ -2,15 +2,15 @@
 #include<iostream>
 using namespace std;
 
-// Function to perform Bubble Sort on the array
+// Function to perform Bubble Sort on the array.
 void Bubblesort(int arr[], int n) {
     // Outer loop for number of passes
     for(int i = 0; i < n - 1; i++) {
         // Inner loop for pairwise comparison and swapping
         for(int j = 0; j < n - 1 - i; j++) {
-            // Why do we compare only up to n - 1 - i? (What does this optimization do?)
+            // Why do we compare only up to n - 1 - i? (What does this optimization do?).
             if(arr[j] > arr[j + 1]) {
-                // Swapping elements if they are out of order
+                // Swapping elements if they are out of order.
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
