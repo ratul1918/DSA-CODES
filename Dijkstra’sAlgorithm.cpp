@@ -1,4 +1,4 @@
-// Problem: Find shortest paths from source node to all other nodes in a weighted graph (Dijkstra's Algorithm)
+// Problem: Find shortest paths from source node to all other nodes in a weighted graph (Dijkstra's Algorithm).
 
 #include <iostream>
 #include <vector>
