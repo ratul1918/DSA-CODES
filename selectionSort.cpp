@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Function to perform selection sort..
+// Function to perform selection sort
 void SelectionSort(int arr[], int n)
 {
     for (int i = 0; i < n-1; i++)
