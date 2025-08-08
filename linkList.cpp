@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Define the structure for a node in the doubly linked list.
+// Define the structure for a node in the doubly linked list
 typedef struct Node {
     int data;
     struct Node* prev; // Pointer to previous node.
