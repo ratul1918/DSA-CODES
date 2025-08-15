@@ -16,7 +16,7 @@ void SelectionSort(int arr[], int n)
             }
         }
 
-        // Swapping the smallest element found with the first unsorted element..
+        // Swapping the smallest element found with the first unsorted element
         int temp = arr[minIdx]; 
         arr[minIdx] = arr[i];
         arr[i] = temp; // Can we use std::swap instead of this manual swap?
