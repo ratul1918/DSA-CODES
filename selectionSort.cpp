@@ -32,7 +32,7 @@ void printArray(int arr[], int n)
     }
 }
 
-// Main function..
+// Main function.
 int main() {
     int n;
     cin >> n; // What if the user inputs a very large number?
