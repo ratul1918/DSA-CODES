@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int n;
-    cin >> n; // Should we check if n is positive?.
+    cin >> n; // Should we check if n is positive?
 
     int arr[n]; // Is it safe to use variable-length arrays in all compilers?...
 
