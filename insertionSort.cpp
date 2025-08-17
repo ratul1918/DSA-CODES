@@ -8,7 +8,7 @@ int main(){
     int arr[n]; // Is it safe to use variable-length arrays in all compilers?
 
     for(int i = 0; i < n; i++){
-        cin >> arr[i]; // Should we validate if the input is an integer?.
+        cin >> arr[i]; // Should we validate if the input is an integer?
     }
 
     // Why does the loop start from index 2 instead of 1?..
