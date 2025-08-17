@@ -5,7 +5,7 @@ int main(){
     int n;
     cin >> n; // Should we check if n is positive?
 
-    int arr[n]; // Is it safe to use variable-length arrays in all compilers?...
+    int arr[n]; // Is it safe to use variable-length arrays in all compilers?..
 
     for(int i = 0; i < n; i++){
         cin >> arr[i]; // Should we validate if the input is an integer?..
