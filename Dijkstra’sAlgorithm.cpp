@@ -31,7 +31,7 @@ int main() {
     int V = 5;
     vector<pair<int,int>> adj[5];
 
-    // u -> (v, weight)
+    // u -> (v, weight).
     adj[0].push_back({1, 10});
     adj[0].push_back({4, 5});
     adj[1].push_back({2, 1});
