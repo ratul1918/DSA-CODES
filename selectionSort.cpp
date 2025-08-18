@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // Function to perform selection sort
 void SelectionSort(int arr[], int n)
 {
