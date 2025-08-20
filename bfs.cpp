@@ -39,7 +39,8 @@ class Graph {
       }
 };
 
-int main(){
+int main()
+{
     int numVertices, numEdges,a,b;
     cout<<"Enter the number of vertices: ";
     cin>>numVertices;
