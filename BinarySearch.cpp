@@ -1,5 +1,5 @@
 // Problem: Perform Binary Search on a sorted array.
-// Given a sorted array and a target value, return the index if found, else return -1.
+// Given a sorted array and a target value, return the index if found, else return -1
 
 #include <iostream>
 using namespace std;
