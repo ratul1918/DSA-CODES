@@ -1,4 +1,4 @@
-//using vector..
+//using vector.
 
 #include <iostream>
 #include <vector>
