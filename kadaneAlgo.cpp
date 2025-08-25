@@ -1,4 +1,4 @@
-// Problem: Find the contiguous subarray with the maximum sum.
+// Problem: Find the contiguous subarray with the maximum sum
 // Given an integer array nums, find the contiguous subarray with the largest sum
 
 #include <iostream>
