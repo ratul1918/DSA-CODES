@@ -16,7 +16,7 @@ int main(){
             ch = ch + 1;  // Move to the next character
         }
 
-        cout << endl; // Move to the next line after each row..
+        cout << endl; // Move to the next line after each row.
     }
 
     return 0;
