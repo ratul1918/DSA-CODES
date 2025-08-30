@@ -5,7 +5,7 @@ int main(){
     int n;
     bool isPrime = true; // Assume the number is prime initially
 
-    cout << "Enter testing number: "; // Ask user for input..
+    cout << "Enter testing number: "; // Ask user for input
     cin >> n; // Read the input number
 
     // Prime numbers are greater than 1
