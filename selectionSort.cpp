@@ -9,7 +9,7 @@ void SelectionSort(int arr[], int n)
 
         for (int j = i+1; j < n; j++)
         {
-            // Why are we comparing arr[j] with arr[minIdx]?
+            // Why are we comparing arr[j] with arr[minIdx]? 
             if (arr[j] < arr[minIdx]) {
                 minIdx = j; // What happens if two elements are equal?
             }
