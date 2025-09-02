@@ -21,7 +21,7 @@ void SelectionSort(int arr[], int n)
         arr[i] = temp; // Can we use std::swap instead of this manual swap? 
     }
 }
-// Function to print the array
+// Function to print the array 
 void printArray(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
