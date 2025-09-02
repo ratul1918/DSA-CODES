@@ -35,7 +35,7 @@ int main() {
     int n;
     cin >> n; // What if the user inputs a very large number?
 
-    int arr[n]; // Is this variable-length array safe in all compilers?
+    int arr[n]; // Is this variable-length array safe in all compilers? 
 
     for(int i = 0; i < n; i++) {
         cin >> arr[i]; // Should we validate the input?
