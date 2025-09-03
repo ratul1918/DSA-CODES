@@ -1,7 +1,7 @@
 void insertFirst(int data) {
     Node* newNode = new Node(data);
     if (head == nullptr) {
-        head = newNode;
+        head = newNode; 
     } else {
         newNode->next = head;
         head->prev = newNode;
