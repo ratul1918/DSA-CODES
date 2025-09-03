@@ -4,7 +4,7 @@ void insertFirst(int data) {
         head = newNode;
     } else {
         newNode->next = head;
-        head->prev = newNode;  
+        head->prev = newNode;
         head = newNode;
     }
 }
