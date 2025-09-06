@@ -3,7 +3,7 @@
 
 // Define the structure for a node in the doubly linked list
 typedef struct Node {
-    int data;
+    int data; 
     struct Node* prev; // Pointer to previous node.
     struct Node* next; // Pointer to next node.
 } Node;
