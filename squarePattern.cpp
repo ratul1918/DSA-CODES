@@ -7,7 +7,7 @@ int main(){
     cin >> n; // Read the number from user input
 
     int num = 1; // Initialize a variable to start printing numbers from 1
-
+ 
     // Outer loop controls the number of rows
     for (int i = 0; i < n; i++) {
         // Inner loop controls the number of columns
