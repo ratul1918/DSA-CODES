@@ -4,7 +4,7 @@
 using namespace std;
 
 class Stack {
-    vector<int> v;
+    vector<int> v; 
 
 public:
     void push(int val) {
