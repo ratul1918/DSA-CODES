@@ -26,7 +26,7 @@ void printArray(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
     {
-        cout << arr[i] << " "; // Should we print a newline at the end for better readability?
+        cout << arr[i] << " "; // Should we print a newline at the end for better readability? 
     }
 }
 
