@@ -8,7 +8,7 @@ typedef struct Node {
     struct Node* next; // Pointer to next node.
 } Node;
 
-// Global head and tail pointers.
+// Global head and tail pointers. 
 Node* head = NULL;
 Node* tail = NULL;
 
