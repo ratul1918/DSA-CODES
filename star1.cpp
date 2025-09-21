@@ -6,7 +6,7 @@ int main(){
     cout << "Enter : ";
     cin >> n;
 
-    // Outer loop controls the number of rows.
+    // Outer loop controls the number of rows. 
     for(int i = 0; i < n; i++){
         char ch = 'A';  // Start each row with character 'A'.
 
