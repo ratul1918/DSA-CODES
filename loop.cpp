@@ -7,7 +7,7 @@ int main(){
     int n = -45;
 
     // Check if the number is positive or negative using ternary operator
-    cout << (n >= 0 ? "pos" : "neg") << endl;
+    cout << (n >= 0 ? "pos" : "neg") << endl; 
 
     return 0;
 }
