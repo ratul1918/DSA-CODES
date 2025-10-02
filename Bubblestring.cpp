@@ -7,7 +7,7 @@ void BubbleSort(string arr[], int n) {
     // Outer loop for passes
     for(int i = 0; i < n - 1; i++) {
         // Inner loop for comparing adjacent elements
-        for(int j = 0; j < n - 1 - i; j++) {
+        for(int j = 0; j < n - 1 - i; j++){
             // Swap if strings are in the wrong order
             if(arr[j] > arr[j + 1]) {
                 temp = arr[j];
