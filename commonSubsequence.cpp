@@ -22,7 +22,7 @@ int LCSLength(string X, string Y, int m, int n)
  
 int main()
 {
-    string X, Y;
+    string X, Y; 
     
     cout << "Enter first string: ";
     cin >> X;
