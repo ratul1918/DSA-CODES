@@ -16,7 +16,7 @@ int LCSLength(string X, string Y, int m, int n)
         return LCSLength(X, Y, m - 1, n - 1) + 1;
     }
  
-    // otherwise, if the last character of `X` and `Y` don't match
+    // otherwise, if the last character of `X` and `Y` don't match 
     return max(LCSLength(X, Y, m, n - 1), LCSLength(X, Y, m - 1, n));
 }
  
