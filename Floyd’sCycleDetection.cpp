@@ -7,7 +7,9 @@ using namespace std;
 struct Node {
     int data;
     Node* next;
-    Node(int val) : data(val), next(nullptr) {}
+    Node(int val) : data(val), next(nullptr) {
+    
+    }
 };
 
 bool hasCycle(Node* head) {
