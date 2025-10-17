@@ -1,36 +1,42 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include <algorithm>
+
 using namespace std;
- 
-// Function to find the length of the longest common subsequence of
-// sequences `X[0…m-1]` and `Y[0…n-1]` 
-int LCSLength(string X, string Y, int m, int n)
+
+int LCSLength(const string& X, const string& Y)
 {
-    // return if the end of either sequence is reached
-    if (m == 0 || n == 0) {
-        return 0;
+    int m = X.length();
+    int n = Y.length();
+
+    vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+
+    for (int i = 1; i <= m; ++i)
+    {
+        for (int j = 1; j <= n; ++j)
+        {
+            if (X[i - 1] == Y[j - 1]) {
+                dp[i][j] = dp[i - 1][j - 1] + 1;
+            }
+            else {
+                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+            }
+        }
     }
- 
-    // if the last character of `X` and `Y` matches
-    if (X[m - 1] == Y[n - 1]) {
-        return LCSLength(X, Y, m - 1, n - 1) + 1;
-    }
- 
-    // otherwise, if the last character of `X` and `Y` don't match 
-    return max(LCSLength(X, Y, m, n - 1), LCSLength(X, Y, m - 1, n));
+    return dp[m][n];
 }
- 
+
 int main()
 {
-    string X, Y; 
+    string X, Y;
     
     cout << "Enter first string: ";
     cin >> X;
     cout << "Enter second string: ";
     cin >> Y;
- 
-    cout << "The length of the LCS is " << 
-            LCSLength(X, Y, X.length(), Y.length()) << endl;
- 
+
+    cout << "The length of the LCS is " << LCSLength(X, Y) << endl;
+
     return 0;
 }
