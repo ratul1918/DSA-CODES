@@ -32,7 +32,7 @@ int main()
     int coins = findMinCoins(S, target);
     if (coins != -1)
     {
-        cout << "The minimum number of coins required to get the desired change is "
+        cout << "The minmum number of coins required to get the desired change is "
              << coins << endl;
     }
     else
