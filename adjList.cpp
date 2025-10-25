@@ -6,7 +6,7 @@ int main() {
     int vertex, edges;
     cin >> vertex >> edges; // Input number of vertices and edges
 
-    vector<int> adList[100]; // Adjacency list (array of vectors)
+    vector <int> adList[100]; // Adjacency list (array of vectors)
 
     int u, v;
     for (int i = 0; i < edges; i++) {
