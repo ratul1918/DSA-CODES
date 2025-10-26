@@ -6,7 +6,7 @@ using namespace std;
 int Find(int x, vector<int>& parent){
     if (parent[x] == -1) return x;
     return parent[x] = Find(parent[x], parent);
-}
+} 
 
 void UnionSets(int u, int v, vector<int>& parent, vector<int>& Rank){
     int RootU = Find(u, parent);
